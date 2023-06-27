@@ -1,0 +1,109 @@
+.loginPage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  min-height: 600px;
+  position: relative;
+  width: 100vw;
+}
+
+.loginLogo {
+  height: 130px;
+  left: calc((100vw - 165px) / 2);
+  position: absolute;
+  top: 12vh;
+  width: 165px;
+  z-index: 1;
+}
+
+.loginTitle {
+  color: #41197f;
+  font-family: Epilogue , sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.165em;
+  line-height: 20px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.purpleContainer {
+  background-color: #41197f;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: center;
+  min-height: 340px;
+  position: relative;
+  width: 100%;
+}
+
+.bigTomatos {
+  bottom: -70px;
+  height: 230px;
+  left: 0;
+  object-fit: cover;
+  object-position: 70%;
+  position: absolute;
+  width: 100%;
+}
+
+.loginInputs {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  justify-content: center;
+  min-height: 300px;
+  padding: 10vh 0 0;
+  position: relative;
+  width: 100vw;
+}
+
+.loginInputs > input {
+  border: 0.5px solid #41197f;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #41197f;
+  font-family: Epilogue , sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  height: 40px;
+  line-height: 14px;
+  margin: 10px 0;
+  min-width: 270px;
+  padding: 10px;
+  width: 75vw;
+}
+
+.loginInputs > button {
+  background: #fcc436;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 0.03em;
+  line-height: 14px;
+  min-width: 270px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 75vw;
+}
+
+.loginInputs > button:disabled {
+  background: #d9d9d9;
+  color: rgb(146, 146, 146);
+}

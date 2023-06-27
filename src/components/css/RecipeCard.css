@@ -1,0 +1,28 @@
+.recipeCard {
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 1rem;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  width: 40%;
+}
+
+.recipeCard > img {
+  height: 50px;
+  width: 50px;
+}
+
+.recipe-card-image {
+  border-radius: 0.5rem;
+  height: 15rem;
+  object-fit: cover;
+  width: 15rem;
+}
